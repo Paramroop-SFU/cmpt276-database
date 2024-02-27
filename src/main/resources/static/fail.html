@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2;url=main.html">
+    <title>Success Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 100px;
+        }
+        h1 {
+            color: #921c1c;
+        }
+        p {
+            color: #333;
+        }
+        a {
+            color: #008CBA;
+        }
+    </style>
+    <script>
+        // JavaScript for manual redirection
+        function redirectToPage() {
+            window.location.href = '/main.html';
+        }
+    </script>
+</head>
+<body>
+    <h1>NO user with that Name</h1>
+    <p>You will be redirected in 2 seconds...</p>
+    <p>If you are not redirected, <a href="/main.html" onclick="redirectToPage(); return false;">click here</a>.</p>
+</body>
+</html>
